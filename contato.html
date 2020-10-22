@@ -3,38 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li><!-- target="_blank" Abre uma nova guia no navegador para exibir o link-->
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Entre em contato com a Carmen:</h1>
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <label for="assunto">Assunto:</label><br>
-        <input type="text" id="assunto">
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea name="mensagem" id="mensagem" cols="60" rows="5"></textarea>
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
-        <button>Enviar</button>
-    </form>
+    
+    <h1 class="center">Entre em contato com a Carmen:</h1>
 
-    <h2>Endereço:</h2>
-    <p>Carmen está em algum lugar no mundo...</p>
-    <p>San Diego, Califórnia (?)</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429154.75849390216!2d-117.38917710046434!3d32.82481751258842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1603301750175!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email">
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto">
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="5"></textarea>
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <br> <!-- Não é uma boa prática utilizar tag de pular linha -->
+                <button>Enviar</button>
+            </form>        
+        </div>
 
+        <div class="ml-50">
+            <p>Carmen está em algum lugar no mundo...</p>
+
+            <p>San Diego, Califórnia (?)</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429154.75849390216!2d-117.38917710046434!3d32.82481751258842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1603301750175!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/linkedin.png" alt="Logo do Linkedin"> 
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados - Gabriela Gomes &copy;
+        </p>
+    </footer>
 </body>
 </html>

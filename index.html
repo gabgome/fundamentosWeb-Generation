@@ -3,25 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Carmen Sandiego Inc.</title>
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li><!-- target= "_blank" Abre uma nova guia no navegador para exibir o link-->
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Sobre Carmen Sandiego</h1><!--Cada página pode ter somente um h1-->
-    <p>
-        Carmen Sandiego é uma famosa ladra que viaja pelos lugares mais interessantes e belos do mundo roubando raros objetos culturais. Detetives são contratados para tentar capturá-la e finalmente levá-la à justiça por seus crimes, mas descobrir onde está Carmen Sandiego não é tão fácil quanto parece.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus explicabo vero impedit fugit magni nisi porro corrupti odio aperiam possimus voluptates perspiciatis culpa soluta molestias, officia ullam fuga consectetur numquam.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo assumenda aut nemo corrupti? Commodi, eveniet. Eveniet velit accusantium eligendi assumenda. A, ea rerum tempore consequuntur excepturi numquam repudiandae suscipit!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi explicabo molestias, illo eaque, amet harum blanditiis atque minus distinctio repudiandae doloribus dignissimos accusamus laudantium tempore pariatur nesciunt animi excepturi!
-    </p>
-    <img src="assets/img/carmen240.jpg" alt="Foto da personagem tema do site"> <!--Coloque uma legenda pensando nas pessoas deficientes visuais-->
+   
+    <h1 class="center">Sobre Carmen Sandiego</h1><!--Cada página pode ter somente um h1-->
+    
+    <div class="container">
+        <div class="p-40">
+            <p class="justify">
+                Carmen Sandiego é uma famosa ladra que viaja pelos lugares mais interessantes e belos do mundo roubando raros objetos culturais. Detetives são contratados para tentar capturá-la e finalmente levá-la à justiça por seus crimes, mas descobrir onde está Carmen Sandiego não é tão fácil quanto parece.
+            </p>
+        
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus explicabo vero impedit fugit magni nisi porro corrupti odio aperiam possimus voluptates perspiciatis culpa soluta molestias, officia ullam fuga consectetur numquam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo assumenda aut nemo corrupti? Commodi, eveniet. Eveniet velit accusantium eligendi assumenda. A, ea rerum tempore consequuntur excepturi numquam repudiandae suscipit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi explicabo molestias, illo eaque, amet harum blanditiis atque minus distinctio repudiandae doloribus dignissimos accusamus laudantium tempore pariatur nesciunt animi excepturi!
+            </p>
+        </div>
+        
+        <div>
+            <img class ="br-50 wh-300 p-40" src="assets/img/carmen240.jpg" alt="Foto da personagem tema do site"> <!--Coloque uma legenda pensando nas pessoas deficientes visuais-->
+        </div>        
+    </div>
+    
+    <h2 class="center">Trailer Netflix:</h2>
 
-    <h2>Trailer Netflix:</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yh2dFPgAWqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yh2dFPgAWqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social" src="./assets/img/linkedin.png" alt="Logo do Linkedin"> 
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados - Gabriela Gomes &copy;
+        </p>
+    </footer>
 </body>
 </html>
